@@ -1,0 +1,31 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.frame {
+	background: #3faf82;
+	height: 100vh;
+	display: flex;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+}
+
+.hamburger {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	cursor: pointer;
+}
+
+.line1,
+.line2,
+.line3 {
+	width: 50vw;
+	height: 6vh;
+	border-radius: 10px;
+	background: #fff;
+	margin: 1rem;
+}
